@@ -43,7 +43,6 @@ h4 {
 }
 
 
-/* Custom cursor - subtle but noticeable */
 body {
   	cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle cx="8" cy="8" r="7" fill="%23c2cae8" stroke="%23254e70" stroke-width="1"/></svg>') 8 8, auto;
 	font-family: "Cozette", "IBM Plex Mono", monospace;
