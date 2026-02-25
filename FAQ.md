@@ -2,18 +2,26 @@
 title: FAQ
 layout: page.html
 tags: page
-date: 2025-02-15
+date: 2026-02-25
+image: /img/screens/screenNsCDE_1.png
+description: Some responses to questions I am often asked.
 ---
 
 ## FAQ 
 
-**Last Updated: 15 Feb 2025**
+**Last Updated: 25 Feb 2026**
 
 Some responses to questions I am often asked.  
 
 ## What are your system specs? 
 
-I run a dual-boot of Fedora Linux and Windows 11 on a mid-range-ish desktop computer I've built that I call "Discovery". Frequently people think I must have some monstrously powerful computer, in reference to a few videos (link to [1](https://www.youtube.com/watch?v=MbIiAr5dt24), & [2](https://www.youtube.com/watch?v=cmshJmQ6o90)) I've done where I've pointed out the speed of computers, but it really isn't so. Computers, just, in a very general kind of way, are very fast. My computer suits my needs, presently, and I'm happy with it. 
+<div class="article-image"><img
+	src="/img/screens/discofetch_latest.png"
+	alt="My neofetch output"
+	loading="lazy"
+	decoding="async"
+/>
+</div>
 
 * **Name:** Discovery 
 * **Processor:** Intel Core i5-12400F @ 4.4GHz (6 cores, 12 threads)
@@ -25,7 +33,9 @@ I run a dual-boot of Fedora Linux and Windows 11 on a mid-range-ish desktop comp
 
 ## What is that terminal you're using? 
 
-In some of my videos I've used [cool-retro-term](https://github.com/Swordfish90/cool-retro-term), a terminal emulator that emulates a CRT television. It might be silly, but I find it fun and reasonably aesthetically pleasing. Otherwise, I use xfce4-terminal, that comes with the XFCE desktop environment. On Windows, I simply use the default Windows terminal, sometimes with the CRT shader setting applied. 
+In the past I've used [cool-retro-term](https://github.com/Swordfish90/cool-retro-term) to give a retro feel to some of my programming videos, but lately I've been using *Phosphor* ([YouTube demonstration](https://www.youtube.com/watch?v=TEy5EJRL3m0&t=9s)), a terminal emulator of my own design that also emulated the look of an old CRT monitor. I think the shader looks better than cool-retro-term, but it is as-of-yet not available to the public. I hope to release it at some point in the future, but for now, it's just a silly project of mine.
+
+When not using a CRT-ified terminal, I use [kitty](https://sw.kovidgoyal.net/kitty/) as my terminal. I also use [fish](https://sw.kovidgoyal.net/kitty/) as my shell, and I love it terribly. I couldn't possibly go back to bash or anything more primitive. 
 
 ## What is that font you're using? 
 
@@ -35,6 +45,14 @@ For my terminal and editor(s), I usually use any of a number of fonts from [The 
 
 I very much enjoy using [NsCDE](https://github.com/NsCDE/NsCDE). It's a modern version of the old [CDE](https://en.wikipedia.org/wiki/Common_Desktop_Environment) desktop from the 90s, and I love it. I love to have a look that brings to mind an old Sun workstation, and NsCDE does that splendidly. 
 
+<div class="article-image"><img
+	src="/img/screens/screenNsCDE_1.png"
+	alt="My desktop setup"
+	loading="lazy"
+	decoding="async"
+/>
+</div>
+
 ## What keyboard do you use? 
 
 I use a [Keychron K6](https://www.keychron.com/products/keychron-k6-wireless-mechanical-keyboard) with [Glorious Panda switches](https://www.gloriousgaming.com/products/glorious-panda-mechanical-switches) and KBDFans SA profile Violet PBT keycaps. I like it, but it's a bit loud for my tastes. My next keyboard will be quieter. 
@@ -43,4 +61,11 @@ I use a [Keychron K6](https://www.keychron.com/products/keychron-k6-wireless-mec
 
 It's a little program I wrote in C. It calculates the nth fibonacci number quickly and to an arbitrary level of precision using [GMP](https://gmplib.org/). 
 
-You can download an updated version of it (with additions from others) [here](https://drive.google.com/drive/folders/1uK8MvlcJhOw5X9mDKA6e2SLcpWJ_NCLP?usp=drive_link). There is also an MS-DOS port, there. The original gist is [here](https://gist.github.com/Softwave/f61091aed8c8d8249014b5056447a698). 
+There is a whole page devoted to it, which you can find <a href="/fib/" class="button">here</a>. The source code is available there as well, along with binaries for both Linux and Windows. There is also a version there for MS-DOS, believe it or not! 
+
+
+<style>
+.button {
+    padding: 6px 10px;
+}
+</style>

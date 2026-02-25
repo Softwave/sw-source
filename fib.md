@@ -27,6 +27,8 @@ This is a number with over **20 million digits**, and that if we pipe to a file 
 
 If we search for the *five billionth* Fibonacci number, we get a number with over **1.04 billion digits**. It takes just 1 minute and 56 seconds to calculate and print this *almighty number*, and the resulting text file is over a full gigabyte in size.
 
+Developed on Linux and cross-compiled to Windows and MS-DOS. 
+
 ## Video Demo
 
 <div class="video-class"><iframe width="560" height="315" src="https://www.youtube.com/embed/cmshJmQ6o90?si=N2sMcDPmc9MibcPw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -36,15 +38,24 @@ If we search for the *five billionth* Fibonacci number, we get a number with ove
 ## Source Code
 <pre class="collapsed">
 <code>
-// Calculate Fibonacci Numbers
-// Originally written by Softwave (https://github.com/Softwave)
-// Public Domain
-// https://creativecommons.org/publicdomain/zero/1.0/
-#include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
-#include <gmp.h>
-#include <time.h>
+/*
+Calculate Fibonacci Numbers
+Originally written by Softwave 
+https://s0ftwave.net/
+https://github.com/Softwave
+Additions by by Francesco146 
+https://github.com/Francesco146 
+and LizzyFleckenstein03 
+https://github.com/LizzyFleckenstein03
+Public Domain
+https://creativecommons.org/publicdomain/zero/1.0/
+*/
+
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+#include &lt;ctype.h&gt;
+#include &lt;gmp.h&gt;
+#include &lt;time.h&gt;
 
 int main(int argc, char *argv[])
 {
@@ -128,13 +139,11 @@ int main(int argc, char *argv[])
 
     // Print time taken
     const double time_taken = ((double) (end_time - start_time)) / (double) CLOCKS_PER_SEC;
-    if (printf("Calculation Time: %lf seconds\n", time_taken) < 0) 
-    {
-        return EXIT_FAILURE;
-    }
+    if (printf("Calculation Time: %lf seconds\n", time_taken) < 0) return EXIT_FAILURE;
     if (fflush(stdout) == EOF) return EXIT_FAILURE;
     return EXIT_SUCCESS;
 }
+
 </code>
 </pre>
 
