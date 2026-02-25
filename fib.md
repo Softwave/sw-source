@@ -10,6 +10,14 @@ image: /img/fibScreen1.png
 
 **Last Updated: 25 Feb 2026**
 
+<div class="article-image"><img
+	src="/img/fibScreen1.png"
+	alt="Sola Scriptura and Anglicanism"
+	loading="lazy"
+	decoding="async"
+/>
+</div>
+
 One of my most popular YouTube videos is my demonstration of a fast Fibonacci number finder in C. The code is available below. With clever programming (and with [GMP -- the GNU Multiple Precision Arithmetic Library](https://gmplib.org/), as well as refinements from others), this program can calculate,  *and print out,* Fibonacci numbers with millions of digits in fractions of a second. The algorithm is based on the fast doubling method, which allows us to compute Fibonacci numbers in logarithmic time. Ie: *O log n*.
 
 The results speak for themselves. The *100 millionth* fibonacci number is calculated and printed to standard out in 1.46 seconds on my machine. 
