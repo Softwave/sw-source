@@ -3,6 +3,7 @@ title: fib.c
 layout: page.html
 tags: page
 date: 2026-02-25
+image: /img/fibScreen1.png
 ---
 
 # fib.c
