@@ -143,7 +143,7 @@ gcc fib.c -o fib -lgmp -O3
 `
 
 
-## Download
+## Download <img src="/img/gif/pink file icon.png" alt="file icon" class="inline-icon">
 
 <a href="https://drive.google.com/file/d/1IzjnhfWSWtB2TNGVFIB55hGIjKF_B4gb/view?usp=sharing" class="button" target="_blank">Download Source</a>
 
