@@ -7,9 +7,9 @@ date: 2026-02-25
 
 # Contact 
 
-### Basic description and saying I'll get back as soon as I can
+I am happy to hear from you! I usually respond to messages straight away. Feel free to reach out regarding your questions, comments, suggestions, etc. 
 
-I am happy to hear from you! I will get back to you as soon as I can! 
+I am also very keen always on opportunities to collaborate. Talk to me about your projects! ![sparkles](../img/gif/sparkles.gif) 
 
 <form class="contact-form" target="_blank" action="https://formsubmit.co/97addf6415ccbb6acdaf3cef2dec06a5" method="POST">
     <div class="form-group">
