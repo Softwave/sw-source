@@ -19,6 +19,7 @@ export default function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("fonts");
     eleventyConfig.addPassthroughCopy("files");
     eleventyConfig.addPassthroughCopy("js");
+    eleventyConfig.addPassthroughCopy("main.js");
 
     return {
         dir: {
