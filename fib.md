@@ -4,6 +4,7 @@ layout: page.html
 tags: page
 date: 2026-02-25
 image: /img/fibScreen1.png
+description: Blazing fast Fibonacci number finder in C, using the fast doubling method and GMP library. Calculates Fibonacci numbers with millions of digits in seconds.
 ---
 
 # fib.c
