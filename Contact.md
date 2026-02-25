@@ -1,7 +1,7 @@
 ---
 title: Contact
 layout: page.html
-tags: page
+tags:
 date: 2026-02-25
 ---
 
