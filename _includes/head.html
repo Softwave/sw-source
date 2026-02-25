@@ -3,23 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{title}}</title>
+    <title>{{ title | default: site.title }}</title>
     <link rel="stylesheet" href="/style/style.css">
     <link rel="icon" href="/img/favicon.ico">
     <!-- Include JQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" type="text/javascript"></script>
     <script src="/main.js" type="text/javascript"></script>
-    <!-- Basic OpenGraph tags -->
-  <meta property="og:title" content="{{ title or site.title }}">
-  <meta name="og:site_name" content="S0ftwave"></meta>
-  <meta property="og:description" content="{{ description or site.description }}">
-  <meta property="og:image" content="{{ site.url }}{{ image or site.image }}">
-  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-  <meta property="og:type" content="website">
-  
-  <!-- Twitter Card tags (works for Twitter/X) -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{{ title or site.title }}">
-  <meta name="twitter:description" content="{{ description or site.description }}">
-  <meta name="twitter:image" content="{{ site.url }}{{ image or site.image }}">
+    {% assign pageTitle = title | default: site.title %}
+    {% assign pageDescription = description | default: site.description %}
+    {% assign pageImage = image | default: site.image %}
+    {% assign pagePath = page.url | default: '/' %}
+
+    {% if pageImage contains '://' %}
+      {% assign pageImageUrl = pageImage %}
+    {% else %}
+      {% assign pageImagePath = pageImage | remove_first: '/' %}
+      {% assign pageImageUrl = site.url | append: pageImagePath %}
+    {% endif %}
+
+    {% if pagePath contains '://' %}
+      {% assign pageUrl = pagePath %}
+    {% else %}
+      {% assign pagePathNormalized = pagePath | remove_first: '/' %}
+      {% assign pageUrl = site.url | append: pagePathNormalized %}
+    {% endif %}
+
+    <meta name="description" content="{{ pageDescription }}">
+    <link rel="canonical" href="{{ pageUrl }}">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="{{ pageTitle }}">
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="og:description" content="{{ pageDescription }}">
+    <meta property="og:image" content="{{ pageImageUrl }}">
+    <meta property="og:image:alt" content="{{ pageTitle }}">
+    <meta property="og:url" content="{{ pageUrl }}">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter/X -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ pageTitle }}">
+    <meta name="twitter:description" content="{{ pageDescription }}">
+    <meta name="twitter:image" content="{{ pageImageUrl }}">
 </head>
