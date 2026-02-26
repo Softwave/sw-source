@@ -46,7 +46,11 @@ I am unsure if I'll do anything more in this specific area, but it's been a lot 
 	/>
 </div>
 
+## My Links <img src="/img/gif/teapot3.gif"></a>
+
 <a href="https://www.deviantart.com/spacenoodle92/art/Godot-Space-Art-1303066180" class="button" target="_blank">The gallery on DeviantArt</a>
+
+<a href="https://ko-fi.com/i/IT6T41UWKFM" class="button" target="_blank">Buy me a cup of tea</a>
 
 
 <style>
