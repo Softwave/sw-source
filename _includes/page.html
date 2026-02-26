@@ -1,7 +1,7 @@
 {% include "head.njk" %}
 
 
-	<body>
+	<body{% if disableBatCursor %} data-disable-bat-cursor="true"{% endif %}>
 		<div class="page">
 			<header>
 				<div class="backbtn">
