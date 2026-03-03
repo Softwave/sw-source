@@ -13,7 +13,7 @@ description: Blazing fast Fibonacci number finder in C, using the fast doubling 
 
 <div class="article-image"><img
 	src="/img/fibScreen1.png"
-	alt="Sola Scriptura and Anglicanism"
+	alt="fib.c screenshot"
 	loading="lazy"
 	decoding="async"
 />
