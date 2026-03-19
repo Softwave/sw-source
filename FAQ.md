@@ -127,17 +127,13 @@ I also have a GameBoy Advance SP, which I also like to use to play games and do 
 
 ## What text editor do you use? <img src="/img/gif/write.gif">
 
-I mostly use [Doom Emacs](https://github.com/doomemacs/doomemacs), but I am playing lately a lot with [Neovim](https://neovim.io/).  
-
-In the past I've also used VS Code and Sublime Text. 
-
-Zed is a new editor that I've liked when I've used it, but I haven't used it enough to switch to. 
+I mostly use [Emacs](https://www.gnu.org/software/emacs/). Specifically, [DOOM Emacs](https://github.com/doomemacs/doomemacs). Emacs is wonderful. It's basically a code-your-own text-editor toolkit! In lisp, no-less! 
 
 I use [Mousepad](https://gitlab.xfce.org/apps/mousepad) and [micro](https://micro-editor.github.io/) for quick edits. 
 
 <div class="image-gallery">
 <img
-    src="/img/emacsscreen1.png"
+    src="/img/screens/emacsScreen2.png"
     alt="My Doom Emacs setup"
     loading="lazy"
     decoding="async"
