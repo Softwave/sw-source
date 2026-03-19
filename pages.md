@@ -13,7 +13,7 @@ A haphazard list of pages and blog posts on this website.
 <h2 class="nontitle">Pages & Posts</h2>
 
     <ul>
-        {%- for page in collections.page -%}
+        {%- for page in collections.page | reverse -%}
         <li class="date"><span>{{page.date | dateformat}}</span> - <a href={{ page.url }}>{{page.data.title}}</a></li>
         {%- endfor -%}
     </ul>

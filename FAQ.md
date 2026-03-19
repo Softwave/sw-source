@@ -1,51 +1,44 @@
 ---
-title: FAQ
+title: FAQ/What I Use
 layout: page.html
 tags: page
-date: 2026-02-25
+date: 2026-03-18
 image: /img/screens/screenNsCDE_1.png
-description: Some responses to questions I am often asked.
+description: What tools I use
 ---
 
-## FAQ 
+# FAQ/What I Use
 
-**Last Updated: 25 Feb 2026**
+**Last Updated: 03 Mar 2026**
 
-Some responses to questions I am often asked.  
+I am often asked just what tools I use for programming, video editing, and so on, particularly in the comments on my YouTube channel. So here it is, all conveniently put in a single place! 
 
-## What are your system specs? 
+## What are your system specs?
 
-<div class="article-image"><img
-	src="/img/screens/discofetch_latest.png"
-	alt="My neofetch output"
-	loading="lazy"
-	decoding="async"
-/>
-</div>
+* Name: Discovery
+* Processor: 12th Gen Intel Core i5-12400F @ 4.4GHz (6 cores, 12 threads)
+* Motherboard: Gigabyte B660M DS3H DDR4
+* RAM: 32GB Corsair DDR4 
+* GPU: NVIDIA GeForce RTX 3060 w. 12GB vRAM
+* Case: [Fractal Design Focus 2 (White)](https://www.fractal-design.com/products/cases/focus/focus-2/white-tg-clear-tint/)
+* Storage: 1TB M.2, 1TB SATA
 
-* **Name:** Discovery 
-* **Processor:** Intel Core i5-12400F @ 4.4GHz (6 cores, 12 threads)
-* **RAM:** 32GB Corsair
-* **GPU:** RTX 3060 w. 12GB vRAM
-* **Case:** [Fractal Design Focus 2 (White)](https://www.fractal-design.com/products/cases/focus/focus-2/white-tg-clear-tint/)
-* **Storage:** 1TB M.2, 1TB SATA 
+## What operating system do you use?
+
+I generally use Linux, specifically [Fedora](https://fedoraproject.org/). My distro isn't always up-to-date, but whatever, ha. It is a distro that I like and have been using for many years. 
+
+Occasionally I will use Windows 11, but I really don't like it. In the past I did use Windows a lot, but Windows 11 has just so many problems and annoyances, I really don't like doing it. Besides, I can actually target Windows rather well from Linux, so I don't really need to use it very much. 
+
+I do want a Mac at some point, mostly for iOS development and so I can support Macintosh builds of my projects. My mobile phone is an iPhone 13. 
+
+## What is that desktop?/Why does your desktop look like that?
+
+I use [NsCDE](https://github.com/NsCDE/NsCDE). This lets me have a retro, CDE-type desktop, which I love. 
 
 
-## What is that terminal you're using? 
-
-In the past I've used [cool-retro-term](https://github.com/Swordfish90/cool-retro-term) to give a retro feel to some of my programming videos, but lately I've been using *Phosphor* ([YouTube demonstration](https://www.youtube.com/watch?v=TEy5EJRL3m0&t=9s)), a terminal emulator of my own design that also emulated the look of an old CRT monitor. I think the shader looks better than cool-retro-term, but it is as-of-yet not available to the public. I hope to release it at some point in the future, but for now, it's just a silly project of mine.
-
-When not using a CRT-ified terminal, I use [kitty](https://sw.kovidgoyal.net/kitty/) as my terminal. I also use [fish](https://sw.kovidgoyal.net/kitty/) as my shell, and I love it terribly. I couldn't possibly go back to bash or anything more primitive. 
-
-## What is that font you're using? 
-
-For my terminal and editor(s), I usually use any of a number of fonts from [The Ultimate Oldschool PC Font Pack](https://int10h.org/oldschool-pc-fonts/fontlist/). I particularly like IBM BIOS-2y. 
-
-## How does your desktop look like that?/What desktop environment do you use? 
-
-I very much enjoy using [NsCDE](https://github.com/NsCDE/NsCDE). It's a modern version of the old [CDE](https://en.wikipedia.org/wiki/Common_Desktop_Environment) desktop from the 90s, and I love it. I love to have a look that brings to mind an old Sun workstation, and NsCDE does that splendidly. 
-
-<div class="article-image"><img
+<div class="image-gallery">
+<img src="/img/screens/discofetch_latest.png" alt="My neofetch output" loading="lazy" decoding="async" />
+<img
 	src="/img/screens/screenNsCDE_1.png"
 	alt="My desktop setup"
 	loading="lazy"
@@ -53,19 +46,105 @@ I very much enjoy using [NsCDE](https://github.com/NsCDE/NsCDE). It's a modern v
 />
 </div>
 
-## What keyboard do you use? 
+My setup, I like to think of my setup as essentially a modern UNIX workstation. Perhaps a Sun workstation, or something like that. 90's era desktops give me a nice, cosy, fuzzy kind of feeling, and I like the simple usability NsCDE affods me. It's a somewhat niche choice, but it's the right one for me. I hope it just keeps being updated!
 
-I use a [Keychron K6](https://www.keychron.com/products/keychron-k6-wireless-mechanical-keyboard) with [Glorious Panda switches](https://www.gloriousgaming.com/products/glorious-panda-mechanical-switches) and KBDFans SA profile Violet PBT keycaps. I like it, but it's a bit loud for my tastes. My next keyboard will be quieter. 
+I sort of operate on a philosophy where my workstation is a bit of a *retro-futurist hacker laboratory*, tailored specifically to my tastes. 
 
-## What is the deal with the fibonacci program?/Can I have it?
+## What terminal do you use?
 
-It's a little program I wrote in C. It calculates the nth fibonacci number quickly and to an arbitrary level of precision using [GMP](https://gmplib.org/). 
+I use [kitty](https://sw.kovidgoyal.net/kitty/) as my primary terminal, and [fish](https://fishshell.com/) as my shell. 
 
-There is a whole page devoted to it, which you can find <a href="/fib/" class="button">here</a>. The source code is available there as well, along with binaries for both Linux and Windows. There is also a version there for MS-DOS, believe it or not! 
+## What is that font you're using? 
 
+For my terminal, I usually use any of a number of fonts from [The Ultimate Oldschool PC Font Pack](https://int10h.org/oldschool-pc-fonts/fontlist/). I particularly like IBM BIOS-2y.  
 
-<style>
-.button {
-    padding: 6px 10px;
-}
-</style>
+For Emacs, I use [BigBlueTerm](https://www.nerdfonts.com/font-downloads) from the Nerd Fonts collection.
+
+## What about the CRT retro terminal/effect you use in some of your videos?
+
+That is "Phosphor", a terminal emulator of my own design that has a CRT-effect shader overlayed on top of it. I have a YouTube demonstration of it [here](https://www.youtube.com/watch?v=TEy5EJRL3m0). 
+
+I may release it at some point, particularly if there is much demand for it, but for now it's just a little toy for myself, especially for using in my videos. 
+
+<div class="image-gallery">
+<img
+	src="/img/phosphor1.png"
+	alt="My Phosphor terminal emulator"
+	loading="lazy"
+	decoding="async"
+/>
+
+<iframe
+	src="https://www.youtube.com/embed/TEy5EJRL3m0?si=AY_TU3tcgcviNP-x"
+	title="YouTube video player"
+	loading="lazy"
+	allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+	referrerpolicy="strict-origin-when-cross-origin"
+	allowfullscreen
+></iframe>
+</div>
+
+## What keyboard do you use?
+
+I use a [Keychron K6](https://www.keychron.com/products/keychron-k6-wireless-mechanical-keyboard) with [Glorious Panda switches](https://www.gloriousgaming.com/products/glorious-panda-mechanical-switches) and KBDFans SA profile PBT keycaps. IE: it has tactile switches and retro "spherical" keycaps. I like it, but it's a bit loud for my tastes. My next keyboard will be quieter. I also don't *love* the keycap colours, but I did get them on sale. 
+
+My mouse is a Logitech MX Master 2S. 
+
+## What other gadgets do you have? 
+
+I have a Commodore 64! I like to use it to play games, and also to practise 6502 assembly language programming. It's fun. 
+
+Check out my game [Weirdvision 64](https://softwave.itch.io/weirdvision-64) on itch.io. <img src="/img/gif/planet.gif">
+
+I also have a GameBoy Advance SP, which I also like to use to play games and do programming for. I have an old Intel MacBook Pro, but it's very old and outdated by now, especially with Apples move to ARM.  
+
+<div class="image-gallery">
+<img
+  src="/img/c64.jpg"
+  alt="My Commodore 64"
+  loading="lazy"
+  decoding="async"
+/>
+<img 
+  src="/img/screens/wv64_1.png"
+  alt="Weirdvision 64"
+  loading="lazy"
+  decoding="async"
+/>
+<img 
+  src="/img/kb1.jpg"
+  alt="My keyboard and mouse -- I don't love the keycap colours, but oh well"
+  loading="lazy"
+  decoding="async">
+<img 
+  src="/img/screens/macbook1.jpg"
+  alt="My MacBook Pro"
+  loading="lazy"
+  decoding="async">
+</div>
+
+## What text editor do you use? 
+
+I mostly use [Doom Emacs](https://github.com/doomemacs/doomemacs), but I am playing lately a lot with [Neovim](https://neovim.io/).  
+
+In the past I've also used VS Code and Sublime Text. 
+
+Zed is a new editor that I've liked when I've used it, but I haven't used it enough to switch to. 
+
+I use [Mousepad](https://gitlab.xfce.org/apps/mousepad) and [micro](https://micro-editor.github.io/) for quick edits. 
+
+## What video editor do you use?
+
+I use [Kdenlive](https://kdenlive.org/). It's pretty good. 
+
+## What image editor(s) do you use?
+
+I use [Affinity](https://www.affinity.studio/) for both raster and vector graphics. I am able to run it on Linux using things like [this](https://github.com/ryzendew/Linux-Affinity-Installer). 
+
+For pixel art, I use [Aseprite](https://www.aseprite.org/). It's worth every penny. 
+
+## What Engines/Frameworks/Libraries do you use?
+
+I use Godot for game development, and actually also for making applications. I've made my own custom gui theme for it, which give a retro 90's desktop look to any Godot 4+ project. You can get it on [my itch.io](https://softwave.itch.io/godot-retro-theme-space-worm).
+
+I love [Raylib](https://www.raylib.com/) for C/C++ graphics programming. Also imgui. 
