@@ -11,9 +11,9 @@ description: What tools I use
 
 **Last Updated: 03 Mar 2026**
 
-I am often asked just what tools I use for programming, video editing, and so on, particularly in the comments on my YouTube channel. So here it is, all conveniently put in a single place! 
+I am often asked just what tools I use for programming, video editing, and so on, particularly in the comments on my YouTube channel. So here it is, all conveniently put in a single place! <img src="/img/gif/axolotl2.gif">
 
-## What are your system specs?
+## What are your system specs? <img src="/img/gif/computer4.gif">
 
 * Name: Discovery
 * Processor: 12th Gen Intel Core i5-12400F @ 4.4GHz (6 cores, 12 threads)
@@ -29,7 +29,7 @@ I generally use Linux, specifically [Fedora](https://fedoraproject.org/). My dis
 
 Occasionally I will use Windows 11, but I really don't like it. In the past I did use Windows a lot, but Windows 11 has just so many problems and annoyances, I really don't like doing it. Besides, I can actually target Windows rather well from Linux, so I don't really need to use it very much. 
 
-I do want a Mac at some point, mostly for iOS development and so I can support Macintosh builds of my projects. My mobile phone is an iPhone 13. 
+I do want a Mac at some point, mostly for iOS development and so I can support Macintosh builds of my projects. My mobile phone is an iPhone 13. <img src="/img/gif/phone.gif">
 
 ## What is that desktop?/Why does your desktop look like that?
 
@@ -46,7 +46,7 @@ I use [NsCDE](https://github.com/NsCDE/NsCDE). This lets me have a retro, CDE-ty
 />
 </div>
 
-My setup, I like to think of my setup as essentially a modern UNIX workstation. Perhaps a Sun workstation, or something like that. 90's era desktops give me a nice, cosy, fuzzy kind of feeling, and I like the simple usability NsCDE affods me. It's a somewhat niche choice, but it's the right one for me. I hope it just keeps being updated!
+My setup, I like to think of my setup as essentially a modern UNIX workstation. Perhaps a Sun workstation, or something like that. 90's era desktops give me a nice, cosy, fuzzy kind of feeling, and I like the simple usability NsCDE affords me. It's a somewhat niche choice, but it's the right one for me. I hope it just keeps being updated!
 
 I sort of operate on a philosophy where my workstation is a bit of a *retro-futurist hacker laboratory*, tailored specifically to my tastes. 
 
@@ -82,6 +82,8 @@ I may release it at some point, particularly if there is much demand for it, but
 	referrerpolicy="strict-origin-when-cross-origin"
 	allowfullscreen
 ></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/a-ZCpCXugvE?si=lQ-V0npN6UazTbIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 ## What keyboard do you use?
@@ -92,7 +94,7 @@ My mouse is a Logitech MX Master 2S.
 
 ## What other gadgets do you have? 
 
-I have a Commodore 64! I like to use it to play games, and also to practise 6502 assembly language programming. It's fun. 
+I have a Commodore 64! <img src="/img/gif/c64.png"> I like to use it to play games, and also to practise 6502 assembly language programming. It's fun. 
 
 Check out my game [Weirdvision 64](https://softwave.itch.io/weirdvision-64) on itch.io. <img src="/img/gif/planet.gif">
 
@@ -123,7 +125,7 @@ I also have a GameBoy Advance SP, which I also like to use to play games and do 
   decoding="async">
 </div>
 
-## What text editor do you use? 
+## What text editor do you use? <img src="/img/gif/write.gif">
 
 I mostly use [Doom Emacs](https://github.com/doomemacs/doomemacs), but I am playing lately a lot with [Neovim](https://neovim.io/).  
 
@@ -133,18 +135,29 @@ Zed is a new editor that I've liked when I've used it, but I haven't used it eno
 
 I use [Mousepad](https://gitlab.xfce.org/apps/mousepad) and [micro](https://micro-editor.github.io/) for quick edits. 
 
-## What video editor do you use?
+<div class="image-gallery">
+<img
+    src="/img/emacsscreen1.png"
+    alt="My Doom Emacs setup"
+    loading="lazy"
+    decoding="async"
+/>
+</div>
+
+## What video editor do you use? <img src="/img/gif/film3.gif">
 
 I use [Kdenlive](https://kdenlive.org/). It's pretty good. 
 
-## What image editor(s) do you use?
+## What image editor(s) do you use? <img src="/img/gif/palette.gif">
 
 I use [Affinity](https://www.affinity.studio/) for both raster and vector graphics. I am able to run it on Linux using things like [this](https://github.com/ryzendew/Linux-Affinity-Installer). 
 
 For pixel art, I use [Aseprite](https://www.aseprite.org/). It's worth every penny. 
 
+I like [Krita](https://krita.org/en/) and [Paint Tool SAI](https://www.systemax.jp/en/sai/) for painting, but I haven't done much of that in a bit. I have a Wacom tablet that I use for that kind of thing. 
+
 ## What Engines/Frameworks/Libraries do you use?
 
 I use Godot for game development, and actually also for making applications. I've made my own custom gui theme for it, which give a retro 90's desktop look to any Godot 4+ project. You can get it on [my itch.io](https://softwave.itch.io/godot-retro-theme-space-worm).
 
-I love [Raylib](https://www.raylib.com/) for C/C++ graphics programming. Also imgui. 
+I love [Raylib](https://www.raylib.com/) for C/C++ graphics programming. Also [imgui](https://github.com/ocornut/imgui). 
