@@ -2,16 +2,16 @@
 title: FAQ/What I Use
 layout: page.html
 tags: page
-date: 2026-03-18
+date: 2026-03-19
 image: /img/screens/screenNsCDE_1.png
 description: What tools I use
 ---
 
 # FAQ/What I Use
 
-**Last Updated: 03 Mar 2026**
+**Last Updated: 19 Mar 2026**
 
-I am often asked just what tools I use for programming, video editing, and so on, particularly in the comments on my YouTube channel. So here it is, all conveniently put in a single place! <img src="/img/gif/axolotl2.gif">
+I am often asked just what tools and technology I use for programming, video editing, and so on, particularly in the comments on my YouTube channel. So here it is, all conveniently put in a single place! <img src="/img/gif/axolotl2.gif">
 
 ## What are your system specs? <img src="/img/gif/computer4.gif">
 
@@ -127,13 +127,13 @@ I also have a GameBoy Advance SP, which I also like to use to play games and do 
 
 ## What text editor do you use? <img src="/img/gif/write.gif">
 
-I mostly use [Emacs](https://www.gnu.org/software/emacs/). Specifically, [DOOM Emacs](https://github.com/doomemacs/doomemacs). Emacs is wonderful. It's basically a code-your-own text-editor toolkit! In lisp, no-less! 
+I mostly use [Emacs](https://www.gnu.org/software/emacs/). Specifically, [DOOM Emacs](https://github.com/doomemacs/doomemacs). Emacs is wonderful. It's basically a code-your-own text-editor toolkit! In lisp λ, no-less! I really love Emacs. My config is [here](https://github.com/Softwave/Doom-Emacs-Config). 
 
-I use [Mousepad](https://gitlab.xfce.org/apps/mousepad) and [micro](https://micro-editor.github.io/) for quick edits. 
+I also use [Mousepad](https://gitlab.xfce.org/apps/mousepad) and [micro](https://micro-editor.github.io/) for quick edits/as scratch pads. 
 
 <div class="image-gallery">
 <img
-    src="/img/screens/emacsScreen2.png"
+    src="/img/screens/EmacsScreen1.png"
     alt="My Doom Emacs setup"
     loading="lazy"
     decoding="async"
