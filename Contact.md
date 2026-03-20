@@ -5,9 +5,11 @@ tags:
 date: 2026-02-25
 ---
 
-# Contact 
+# Contact
 
-I am happy to hear from you! I usually respond to messages straight away. Feel free to reach out regarding your questions, comments, suggestions, etc. 
+I am happy to hear from you! <img src="/img/gif/mail16.gif"> 
+
+I usually respond to messages straight away. Feel free to reach out regarding your questions, comments, suggestions, etc. 
 
 I am also very keen always on opportunities to collaborate. Talk to me about your projects! ![sparkles](../img/gif/sparkles.gif) 
 
