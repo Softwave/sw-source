@@ -135,4 +135,11 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+# Affinity Photo .af files
+*.af
+
+
 _site
+*.af~lock~
+site.af~lock~
+img/LogoPixelBig.af~lock~
