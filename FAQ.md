@@ -11,7 +11,7 @@ description: What tools I use
 
 **Last Updated: 19 Mar 2026**
 
-I am often asked just what tools and technology I use for programming, video editing, and so on, particularly in the comments on my YouTube channel. So here it is, all conveniently put in a single place! <img src="/img/gif/axolotl2.gif">
+I am often asked just what tools and technology I use for programming, video editing, and so on, particularly in the comments on my YouTube channel. So here it is, all conveniently put in a single place! <img src="/img/gif/axolotl2.gif">0
 
 ## What are your system specs? <img src="/img/gif/computer4.gif">
 
