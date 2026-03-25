@@ -155,13 +155,13 @@ gcc fib.c -o fib -lgmp -O3
 
 ## Download <img src="/img/gif/pink file icon.png" alt="file icon" class="inline-icon">
 
-<a href="https://drive.google.com/file/d/1IzjnhfWSWtB2TNGVFIB55hGIjKF_B4gb/view?usp=sharing" class="button" target="_blank">Download Source</a>
+<a href="https://drive.google.com/file/d/1IzjnhfWSWtB2TNGVFIB55hGIjKF_B4gb/view?usp=sharing" class="button" target="_blank"><img src="/img/gif/science_wm.png" class="button-icon">Download Source</a>
 
-<a href="https://drive.google.com/file/d/1YVCskDONpluc0Eu9EKAJKnMZdWTK94Dv/view?usp=drive_link" class="button" target="_blank">Download for MS-DOS</a>
+<a href="https://drive.google.com/file/d/1YVCskDONpluc0Eu9EKAJKnMZdWTK94Dv/view?usp=drive_link" class="button" target="_blank"><img src="/img/gif/msdos_16x16.png" class="button-icon">MS-DOS Binary</a>
 
-<a href="https://drive.google.com/file/d/1Vr-EYO3pyyZrL3iWD0b7l3smiXphdK-K/view?usp=drive_link" class="button" target="_blank">Linux Binary </a>
+<a href="https://drive.google.com/file/d/1Vr-EYO3pyyZrL3iWD0b7l3smiXphdK-K/view?usp=drive_link" class="button" target="_blank"><img src="/img/gif/linux_wm.png" class="button-icon">Linux Binary</a>
 
-<a href="https://drive.google.com/file/d/1l2ooZ8hRq6a-OFhQoAofvlRNSS4wOpGw/view?usp=drive_link" class="button" target="_blank">Windows Binary</a>
+<a href="https://drive.google.com/file/d/1l2ooZ8hRq6a-OFhQoAofvlRNSS4wOpGw/view?usp=drive_link" class="button" target="_blank"><img src="/img/gif/win16.png" class="button-icon">Windows Binary</a>
 
 
 <style>

@@ -6,9 +6,8 @@ eleventyImport:
   collections: ["page"]
 templateEngineOverride: njk
 ---
-
+<h1>Pages</h1>
 <div class="blog2">
-<br>
 A haphazard list of pages and blog posts on this website. 
 <h2 class="nontitle">Pages & Posts</h2>
 
