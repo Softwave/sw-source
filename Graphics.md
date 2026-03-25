@@ -1,5 +1,5 @@
 ---
-title: My Custom Web Graphics
+title: My Web Graphics
 layout: page.html
 tags: page
 date: 2026-03-21
