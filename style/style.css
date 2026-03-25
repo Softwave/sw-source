@@ -655,11 +655,11 @@ html.lightbox-open {
   overflow: hidden;
 }
 
-body.lightbox-scroll-lock {
+/* body.lightbox-scroll-lock {
   position: fixed;
   width: 100%;
   overflow-y: scroll;
-}
+}*/
 
 .image-lightbox-trigger {
   cursor: zoom-in;
@@ -690,6 +690,7 @@ body.lightbox-scroll-lock {
 }
 
 .image-lightbox.is-open {
+  display: grid;
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
@@ -816,7 +817,12 @@ article li::before,
         background: var(--color-primary);
         color: var(--color-secondary);
     }
-*/
+        .retro-button:hover {
+    border-bottom: 2px solid #808080!important;
+    background: var(--color-primary);
+    color: var(--color-secondary);
+}
+        */
 
  @media (hover: hover) and (pointer: fine) {
     .retro-button:hover {
@@ -825,7 +831,6 @@ article li::before,
         color: var(--color-secondary);
     }
 }
-
 
 .retro-button:active {
     border-top: 2px solid #808080;
@@ -845,3 +850,8 @@ article li::before,
     image-rendering: pixelated;
     image-rendering: crisp-edges;
 }
+
+/*
+* {
+  outline: 1px solid red;
+}*/
