@@ -9,7 +9,7 @@ description: Some spacescapes I've made in Godot.
 
 # Abstract Art Program in C++ (Raylib, GLSL)
 
-**Last Updated: 25 Feb 2026**
+**Last Updated: 18 April 2026**
 
 <div class="article-image"><img
 	src="/img/art/waves2.png"
