@@ -13,7 +13,7 @@ description: Some spacescapes I've made in Godot.
 
 <div class="article-image"><img
 	src="/img/art/waves2.png"
-	alt="fib.c screenshot"
+	alt="waves screenshot"
 	loading="lazy"
 	decoding="async"
 />
