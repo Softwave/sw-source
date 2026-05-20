@@ -19,7 +19,9 @@ export default function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("fonts");
     eleventyConfig.addPassthroughCopy("files");
     eleventyConfig.addPassthroughCopy("js");
+    eleventyConfig.addPassthroughCopy("lab");
     eleventyConfig.addPassthroughCopy("main.js");
+    eleventyConfig.addPassthroughCopy({ "lab/plasmoid/bundle.jsdos": "bundle.jsdos" });
 
     return {
         dir: {
